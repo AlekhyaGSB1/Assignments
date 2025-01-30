@@ -1,12 +1,22 @@
 package com.assignments;
 
+/**
+ * @author Alekhya GSB
+ * 
+ * @param empNames -- is an array which stores Employee Names with String data type
+ * @param empIds -- is an array which stores Employee IDs with integer data type
+ * 
+ */
+
 public class Assignment3_EmployeeGroups {
 	
-	static String [] empNames = new String[3];
-	static int[] empIds = new int[3];
+	
 	
 	public static void main(String args[])
 	{
+		String [] empNames = new String[3];
+		int[] empIds = new int[3];
+		
 		Assignement3_Employee obj = new Assignement3_Employee();
 		empNames[0] =  obj.empNames[0];
 		empNames[1] = obj.empNames[1];
