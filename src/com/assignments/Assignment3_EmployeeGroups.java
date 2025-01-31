@@ -14,9 +14,9 @@ public class Assignment3_EmployeeGroups {
 	
 	public static void main(String args[])
 	{
+		
 		String [] empNames = new String[3];
 		int[] empIds = new int[3];
-		
 		Assignement3_Employee obj = new Assignement3_Employee();
 		empNames[0] =  obj.empNames[0];
 		empNames[1] = obj.empNames[1];
